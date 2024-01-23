@@ -15,14 +15,12 @@
   flex-direction: column;
   align-items: center;
 }
-h1 {
-  font-size: 4rem;
-}
-p {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  width: 60rch;
-  text-align: justify;
+
+#txt {
+  position: absolute;
+  top: .5em;
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .high {
@@ -38,4 +36,34 @@ p {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.container h1 {
+  color: whitesmoke;
+  z-index: 10;
+  font-size: 3.25rem;
+  text-align: center;
+}
+.container h1 span {
+  color: whitesmoke;
+  font-family: "wilds";
+  z-index: 10;
+  font-size: 5rem;
+  text-align: center;
+}
+.contheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  flex-direction: column;
+  position: absolute;
+  top: 7.5rem;
+  line-height: 4rem;
+  position: absolute;
+}
+.contheader img {
+  position: absolute;
+  transform: translateY(-80%);
 }

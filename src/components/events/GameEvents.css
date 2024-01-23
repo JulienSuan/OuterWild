@@ -1,0 +1,75 @@
+.game_event_container {
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+    z-index: 2;
+    border: rgba(247, 126, 39, 0.712) 1px solid;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: rgba(247, 126, 39, 0.048);
+    backdrop-filter: blur(2px);
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    
+}
+.contalaba {
+    padding: 0.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    border-bottom: 1px rgba(247, 126, 39, 0.24) solid;
+    color: rgba(245, 245, 245, 0.842);
+    padding-bottom: .45em;
+    padding-top: .45em;
+}
+
+
+.game_event_timer {
+    color: rgba(247, 126, 39, 0.904);
+    margin-right: 2rem;
+}
+.game_event_timer_echo {
+    color: rgba(38, 234, 221, 0.911);
+    margin-right: 2rem;
+    
+}
+
+.contalaba:hover {
+    transition: .15s all;
+    color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.027);
+    cursor: pointer;
+}
+.contalaba:hover > .game_event_timer {
+    transition: .15s all;
+    color: rgb(247, 126, 39)
+}
+
+.event_progess_bar {
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+.event_progess_bar_container {
+    background-color: rgba(0, 0, 0, 0.479);
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.event_progess_bar_bar {
+    height: 25px;
+    background-color: rgb(247 125 39);
+    width: 1px;
+    position: absolute;
+}
+.gameventscont {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}

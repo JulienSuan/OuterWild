@@ -1,8 +1,15 @@
+@font-face {
+  font-family: outer;
+  src: url("./fonts/FontsFree-Net-ITCAvantGardeStdMd.ttf");
+}
+@font-face {
+  font-family: wilds;
+  src: url("./fonts/itc-serif-gothic-regular-588cef4e7134b.otf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: outer;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
