@@ -30,6 +30,8 @@
 }
 
 .container {
+  position: fixed;
+  overflow: hidden;
   display: flex;
   z-index: 1;
   width: 100%;

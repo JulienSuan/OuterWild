@@ -9,9 +9,9 @@ import GameEvents from "./components/events/GameEvents";
 export default function App() {
   return (
     <>
-    <div className="container">
+    <div className="container" >
     <GameEvents></GameEvents>
-      <div className="contheader">
+      <div className="contheader" >
         <img src={logo} width={150}  />
         <h1>OUTER <br /><span>WILDS</span></h1>
       </div>
